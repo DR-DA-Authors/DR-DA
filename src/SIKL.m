@@ -51,7 +51,7 @@ function beta = SIKL(domain)
     cons = [cons; [M mu; mu' t] >= 0, M - [[zeros(d, d) zeros(d, 1)]; [zeros(1, d) tau]] >= 0];
 
     obj = tau;  
-    ops = sdpsettings('solver', 'mosek', 'verbose', 1);
+    ops = sdpsettings('solver', 'mosek', 'verbose', 0);
 %     ops.mosek.MSK_DPAR_SEMIDEFINITE_TOL_APPROX = 1e-15;
 %     ops.mosek.MSK_DPAR_INTPNT_CO_TOL_DFEAS = 1e-10;
 %     ops.mosek.MSK_DPAR_INTPNT_CO_TOL_INFEAS = 1e-10;

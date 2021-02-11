@@ -34,7 +34,7 @@ function beta_ditl = DITL(domain, h, reg)
 
 
 
-    ops = sdpsettings('solver', 'mosek', 'verbose', 1);
+    ops = sdpsettings('solver', 'mosek', 'verbose', 0);
     diagnose = optimize(cons, -obj , ops);
 
     fprintf(diagnose.info + "\n")
