@@ -44,7 +44,7 @@ Should be placed as "./data/california_housing.csv"
 
 
 #### Saved numerical results
-The workspaces of the experiment results in Secion 6, Table 1 and Figure 4 are placed under "./results".
+The workspaces of the experiment results in Secion 6, in particular Table 1 and Figure 4 as well as Figure A.1. in the appendix are placed under "./results".
 
 
 
