@@ -44,9 +44,9 @@ Should be placed as "./data/california_housing.csv"
 
 
 #### Saved numerical results
-The workspaces of the experiment results in Secion 6, in particular Table 1 and Figure 4 as well as Figure A.1. in the appendix are placed under "./results".
-For each dataset the corresponding figure is obtained by running ./results/plotting.m to obtain the figures in the paper with the data_set parameter set accordingly. 
-The values in the table are obtained by running ./results/create_table_values.m. Detailed explanations on how to run these codes are provided at the begining of the scripts.
+The workspaces of the experiment results in Secion 6, in particular Table 1 and Figure 4 as well as Figure A.1. in the appendix are placed under "./paper results".
+For each dataset the corresponding figure is obtained by running ./paper results/plotting.m to obtain the figures in the paper with the data_set parameter set accordingly. 
+The values in the table are obtained by running ./paper results/create_table_values.m. Detailed explanations on how to run these codes are provided at the begining of the scripts.
 
 
 
